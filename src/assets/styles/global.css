@@ -1,0 +1,17 @@
+:root{
+    --color-background: #1b262c; 
+    --color-sidebar: #322f3d;
+    --color-text-sidebar: #12cad6; 
+    --color-selected-sidebar: #F23558; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root{
+    height: 100vh;
+    background-color: var(--color-background);
+}

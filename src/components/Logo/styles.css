@@ -1,0 +1,10 @@
+h1{
+    font-family: Archivo;
+    color: var(--color-selected-sidebar);
+    font-size: 16px;
+    margin-bottom: 8px;
+    /* margin-top: 8px; */
+    text-transform: uppercase;
+    filter: brightness(0.9);
+    padding: 0 16px;
+}
