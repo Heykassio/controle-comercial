@@ -81,9 +81,6 @@ function Sidebar() {
                     </div>
                 </Link>
             </div>
-            <div className="barra">
-
-            </div>
             <div className="footer-sidebar">
                 <div className="sidebar-itens">
                     <Link to="/">

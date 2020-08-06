@@ -1,0 +1,45 @@
+.expire{
+    height: 244px;
+    font-family: Archivo;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 16px;
+    box-shadow: 
+             inset 5px 5px 9px #141c21, 
+            inset -5px -5px 9px #223037;
+    /* border: 1px solid red; */
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.expire h3{
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.expire .expire-content{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 12px;
+    height: 95%;
+    margin: auto 0;
+    overflow: scroll;
+}
+
+.expire .expire-content .expire-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px;
+    text-align: center;
+}
+
+.expire .expire-item svg{
+    width: 16px;
+    height: 16px;
+    color: white;
+    margin: 0 auto;
+}

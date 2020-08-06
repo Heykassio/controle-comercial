@@ -4,7 +4,7 @@ import './styles.css';
 
 function Logo (){
     return (
-        <h1>Arca conveniencia</h1>
+        <h1>Arca Conveniencia</h1>
     );
 };
 

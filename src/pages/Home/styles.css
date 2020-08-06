@@ -6,49 +6,65 @@
 }
 
 .content {
-    display: flex;
-    justify-content: space-between;
-    height: 59px;
-    align-items: center;
-    padding: 16px 16px 8px 0;
-    border-bottom: 1px solid var(--color-text-sidebar);
+    display: grid;
+    grid-template-rows: 59px 280px 1fr 0.7fr;
+    row-gap: 16px;
 }
 
-.profile-pic{
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
-}
-.search-bar{
-    margin-left: 45vw;
-}
-
-.search-bar form{
-    display: flex;
-    align-items: center;
-}
-
-.search-bar input{
-    height: 30px;
-    width: 20vw;
-    padding: 0 8px;
-    border-radius: 0 8px 8px 0;
-    outline: none;
-    border: none;
+.content .cards-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 12px 12px 0px 16px;
+    column-gap: 16px;
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow:  5px 5px 7px #151e22, 
+             -5px -5px 7px #212e36;
+    /* border: 1px solid red; */
 }
 
-.search-bar button{
-    color: black;
-    height: 30px;
-    text-align: center;
-    width: 30px;
-    border: none;
-    border-radius: 8px 0 0 8px;
-    cursor: pointer;
+.content .cards-section .cards-section-cambios{
+    display: grid;  
+    grid-template-rows: 1fr 1fr;
+    row-gap: 14px;
 }
 
-.search-bar button svg{
-    width: 16px;
-    height: 16px;
-    margin-top: 4px;
+.content .charts{
+    /* border: 1px solid red; */
+    padding: 8px 12px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    margin: 0 12px 0px 16px;
+    box-shadow:  5px 5px 7px #151e22, 
+             -5px -5px 7px #212e36;
+}
+
+.content .reunion{
+    /* border: 1px solid yellow; */
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin: 0 12px 12px 16px;
+    box-shadow:  5px 5px 7px #151e22, 
+             -5px -5px 7px #212e36;
+}
+
+.content .charts .day-chart,
+.content .charts .month-chart {
+    /* border: 1px solid red; */
+    border-radius: 16px;
+    box-shadow: 
+             inset 5px 5px 9px #141c21, 
+            inset -5px -5px 9px #223037;
+}
+
+.content .reunion .today-reunion {
+    /* border: 1px solid red; */
+    height: 100%;
+    border-radius: 16px;
+    box-shadow: 
+             inset 5px 5px 9px #141c21, 
+            inset -5px -5px 9px #223037;
 }

@@ -1,0 +1,30 @@
+.card-cambio{
+    max-height: 114px;
+    font-family: Archivo;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 16px;
+    background: #1b262c;
+    box-shadow: 
+             inset 5px 5px 9px #141c21, 
+            inset -5px -5px 9px #223037;
+}
+
+.card-cambio .cambio-itens svg{
+    width: 16px;
+    height: 16px;
+    color: red;
+    margin: 0 auto;
+}
+
+.card-cambio h3{
+    text-align: center;
+    margin-top: 4px;
+}
+
+.card-cambio .cambio-item{
+    display: flex;
+    justify-content: space-around;
+    padding: 6px 0;
+    margin-top: 8px;
+}
