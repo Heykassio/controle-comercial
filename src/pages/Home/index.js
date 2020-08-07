@@ -10,38 +10,40 @@ import CardCambio from '../../components/CardCambio';
 import './styles.css'
 import CardExpire from '../../components/CardExpire';
 
-function Home () {
+function Home() {
     return (
         <div className="container">
-            <Sidebar/>
+            <Sidebar />
             <div className="content">
-                <SearchBar/>
-                <div className="cards-section">
-                    <div className="cards-section-cambios">
-                        <CardCambio/>
-                        <CardCambio/>
+                <SearchBar />
+                <div className="container-insde">
+                    <div className="cards-section">
+                        <div className="cards-section-cambios">
+                            <CardCambio />
+                            <CardCambio />
+                        </div>
+                        <CardExpire />
+                        <CardExpire />
+                        <CardExpire />
                     </div>
-                        <CardExpire/>
-                        <CardExpire/>
-                        <CardExpire/>
-                </div>
 
-                <div className="charts">
-                    <div className="day-chart">
+                    <div className="charts">
+                        <div className="day-chart">
 
+                        </div>
+                        <div className="month-chart">
+
+                        </div>
                     </div>
-                    <div className="month-chart">
 
-                    </div>
-                </div>
-                
-                <div className="reunion">
-                    <div className="today-reunion">
-                        
+                    <div className="reunion">
+                        <div className="today-reunion">
+
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>   
+        </div>
     );
 };
 

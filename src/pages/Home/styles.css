@@ -7,8 +7,17 @@
 
 .content {
     display: grid;
-    grid-template-rows: 59px 280px 1fr 0.7fr;
+    grid-template-rows: 59px 1fr;
+    /* grid-template-rows: 59px 280px 1fr 0.7fr; */
+}
+.content .container-insde{
+    display: grid;
+    grid-template-rows: 280px 1fr 0.7fr;
     row-gap: 16px;
+    border-radius: 8px 0 0 0;
+    /* border-top: 1px solid red;
+    border-left: 1px solid red; */
+    box-shadow: inset 3px 3px 7px var(--color-background-dark);
 }
 
 .content .cards-section{
@@ -19,15 +28,15 @@
     margin-top: 12px;
     padding: 12px;
     border-radius: 8px;
-    box-shadow:  5px 5px 7px #151e22, 
-             -5px -5px 7px #212e36;
+    box-shadow:  3px 3px 7px var(--color-background-dark), 
+             -3px -3px 7px var(--color-background-light);
     /* border: 1px solid red; */
 }
 
 .content .cards-section .cards-section-cambios{
     display: grid;  
     grid-template-rows: 1fr 1fr;
-    row-gap: 14px;
+    row-gap: 12px;
 }
 
 .content .charts{
@@ -38,8 +47,8 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 16px;
     margin: 0 12px 0px 16px;
-    box-shadow:  5px 5px 7px #151e22, 
-             -5px -5px 7px #212e36;
+    box-shadow:  3px 3px 7px var(--color-background-dark), 
+             -3px -3px 7px var(--color-background-light);
 }
 
 .content .reunion{
@@ -47,8 +56,8 @@
     padding: 8px 12px;
     border-radius: 8px;
     margin: 0 12px 12px 16px;
-    box-shadow:  5px 5px 7px #151e22, 
-             -5px -5px 7px #212e36;
+    box-shadow:  3px 3px 7px var(--color-background-dark), 
+             -3px -3px 7px var(--color-background-light);
 }
 
 .content .charts .day-chart,
@@ -56,8 +65,8 @@
     /* border: 1px solid red; */
     border-radius: 16px;
     box-shadow: 
-             inset 5px 5px 9px #141c21, 
-            inset -5px -5px 9px #223037;
+             inset 3px 3px 7px var(--color-background-dark), 
+            inset -3px -3px 7px var(--color-background-light);
 }
 
 .content .reunion .today-reunion {
@@ -65,6 +74,6 @@
     height: 100%;
     border-radius: 16px;
     box-shadow: 
-             inset 5px 5px 9px #141c21, 
-            inset -5px -5px 9px #223037;
+             inset 3px 3px 7px var(--color-background-dark), 
+            inset -3px -3px 7px var(--color-background-light);
 }

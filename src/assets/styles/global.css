@@ -1,8 +1,13 @@
 :root{
-    --color-background: #1b262c; 
-    --color-sidebar: #322f3d;
-    --color-text-sidebar: #12cad6; 
-    --color-selected-sidebar: #F23558; 
+    --color-background: #e6e7ee;
+    --color-background-dark: #b8b9be;
+    --color-background-light: #fff;
+    --color-text-sidebar: #31344b;
+    --color-text-cards: #31344b;
+    --color-selected-sidebar: #e6e7ee;
+    --color-selected-sidebar-dark: #b8b9be ;
+    --color-selected-sidebar-light: #fff;
+
 }
 
 *{

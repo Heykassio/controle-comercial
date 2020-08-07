@@ -1,9 +1,16 @@
 h1{
     font-family: Archivo;
-    color: var(--color-selected-sidebar);
+    color: var(--color-text-sidebar);
     font-size: 16px;
-    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-top: 4px;
+    width: 184px;
+    height: 50px;
+    /* margin-bottom: 8px; */
     /* margin-top: 8px; */
     text-transform: uppercase;
-    padding: 0 16px;
+    padding: 8px 16px;
+    border-radius: 14px;
+    box-shadow: inset 2px 2px 5px var(--color-selected-sidebar-dark), 
+            inset -3px -3px 7px var(--color-selected-sidebar-light);
 }

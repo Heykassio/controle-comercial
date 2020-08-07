@@ -1,12 +1,12 @@
 .expire{
     height: 244px;
     font-family: Archivo;
-    color: white;
+    color: var(--color-text-cards);
     padding: 8px 16px;
     border-radius: 16px;
     box-shadow: 
-             inset 5px 5px 9px #141c21, 
-            inset -5px -5px 9px #223037;
+             inset 2px 2px 5px var(--color-background-dark), 
+            inset -3px -3px 7px var(--color-background-light);
     /* border: 1px solid red; */
 }
 
@@ -40,6 +40,5 @@
 .expire .expire-item svg{
     width: 16px;
     height: 16px;
-    color: white;
     margin: 0 auto;
 }

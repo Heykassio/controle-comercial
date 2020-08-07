@@ -5,10 +5,9 @@ a{
     background-color:var(--color-background);
     width: 200px;
     height: 100%;
-    padding: 16px 0;
-    background: #1b262c;
-    box-shadow:  5px 5px 7px #151e22, 
-             -5px -5px 7px #212e36;
+    padding: 0 0;
+    /* box-shadow:  3px 3px 7px var(--color-background-dark), 
+             -3px -3px 7px var(--color-background-light); */
 }
 
 .sidebar .sidebar-itens{
@@ -16,6 +15,7 @@ a{
     margin: 8px;
     margin-bottom: 14px;
     border-radius: 14px;
+    transition: 0.3s;
 }
 
 .sidebar .sidebar-itens:last-child{
@@ -25,16 +25,16 @@ a{
 .sidebar .active,
 .sidebar .sidebar-itens:hover {
     background-color: var(--color-selected-sidebar);
-    color: white;
-    box-shadow: inset 5px 5px 10px #611523, 
-            inset -5px -5px 10px #ff558d,
-            5px 5px 7px #151e22, 
-             -5px -5px 7px #212e36;
+    color: var(--color-text-sidebar);
+    box-shadow: inset 2px 2px 5px var(--color-selected-sidebar-dark), 
+            inset -3px -3px 7px var(--color-selected-sidebar-light);
+            /* 5px 5px 7px var(--color-background-dark), 
+             -5px -5px 7px var(--color-background-light); */
 }
 
 .sidebar .active a .link-itens span,
 .sidebar .active a .link-itens svg{
-    color: white;
+    color: var(--color-text-sidebar);
 }
 
 .sidebar .sidebar-itens a .link-itens{
@@ -47,7 +47,7 @@ a{
 }
 
 .sidebar .sidebar-itens a .link-itens:hover{
-    color: white;
+    color: var(--color-text-sidebar);
 }
 
 .sidebar .sidebar-itens svg{
@@ -77,5 +77,4 @@ a{
 
 .bar-header{
     width: 100%;
-    margin-bottom: 40px;
 }

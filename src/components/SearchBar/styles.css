@@ -3,21 +3,35 @@
     justify-content: space-between;
     height: 59px;
     align-items: center;
-    padding: 16px 16px 8px 0;
+    padding: 12px 16px 12px 0;
     border-radius: 0px;
-    background: #1b262c;
-    box-shadow:  11px 11px 22px #0b0f12;
+    /* box-shadow:  3px 3px 7px var(--color-background-dark); */
+}
+
+.today-info {
+    height: 30px;
+    width: 300px;
+    margin-left: 16px;
+    box-shadow: inset 2px 2px 5px var(--color-background-dark), 
+            inset -3px -3px 7px var(--color-background-light);
+    border-radius: 12px;
+}
+
+.profile-pic-border{
+    width: 45px;
+    height: 45px;
+    padding: 6px;
+    border-radius: 50%;
+    box-shadow: inset 2px 2px 2px #b8b9be,inset -3px -3px 4px #fff;
 }
 
 .profile-pic{
     width: 34px;
     height: 34px;
     border-radius: 50%;
-    box-shadow:  5px 5px 10px #0b0f12, 
-             -5px -5px 10px #2b3d46;
 }
 .search-bar{
-    margin-left: 45vw;
+    margin-left: 20vw;
 }
 
 .search-bar form{
@@ -33,9 +47,9 @@
     outline: none;
     border: 1px solid #d1d9e6;
     border-left: none;
-    background: #e6e7ee;
-    box-shadow: inset 5px 5px 7px #b1b1b1, 
-            inset -5px -5px 7px #ffffff;
+    background: var(--color-background);
+    box-shadow: inset 2px 2px 5px var(--color-background-dark), 
+            inset -3px -3px 7px var(--color-background-light);
 }
 
 .search-bar button{
